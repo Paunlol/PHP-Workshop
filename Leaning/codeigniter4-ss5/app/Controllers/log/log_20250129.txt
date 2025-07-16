@@ -1,0 +1,4 @@
+2025-01-29 10:20:31
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"tikky003","password":"P@ssw0rd","con_password":"P@ssw0rd","email":"asfjksajf@fjsakjfka.casd","fname":"ksafjlas","lname":"asjfhksa","c_id":"1103744937444","phone":"3943040394","address":"asdasfsaf","date":"Wed Jan 29 2025 10:20:21 GMT 0700 (Indochina Time)","provinces":"1","districts":"32","subdistricts":"113","status":"3"}}
+-------------------------

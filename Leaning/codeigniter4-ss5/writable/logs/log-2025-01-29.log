@@ -1,0 +1,283 @@
+CRITICAL - 2025-01-29 09:46:16 --> Invalid file: "list_user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_user.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('list_user', [], true)
+ 3 APPPATH\Controllers\Service.php(636): view('list_user')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 09:49:19 --> Call to undefined method App\Libraries\curl::select()
+in APPPATH\Controllers\Service.php on line 646.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 09:50:25 --> Call to undefined method App\Libraries\curl::select()
+in APPPATH\Controllers\Service.php on line 646.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 09:51:05 --> Invalid file: "list_user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list_user.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('list_user', [], true)
+ 3 APPPATH\Controllers\Service.php(681): view('list_user')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 09:51:34 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\list_user.php on line 74.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('list_user', [], true)
+ 4 APPPATH\Controllers\Service.php(681): view('list_user')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 09:53:53 --> Call to undefined method App\Libraries\curl::select()
+in APPPATH\Controllers\Service.php on line 646.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:00:33 --> Array to string conversion
+in APPPATH\Views\list_user.php on line 73.
+ 1 APPPATH\Views\list_user.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\list_user.php', 73)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\list_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('list_user', [], true)
+ 5 APPPATH\Controllers\Service.php(681): view('list_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:13:29 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Service.php on line 649.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/zipcode')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/zipcode')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/zipcode')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:13:30 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Service.php on line 649.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/zipcode')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/zipcode')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/zipcode')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:13:38 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Service.php on line 649.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/zipcode')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/zipcode')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/zipcode')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:13:47 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Service.php on line 649.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/zipcode')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/zipcode')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/zipcode')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:25:23 --> Undefined property: stdClass::$p_id
+in APPPATH\Controllers\Service.php on line 647.
+ 1 APPPATH\Controllers\Service.php(647): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$p_id', 'APPPATH\\Controllers\\Service.php', 647)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:27:07 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Service.php on line 647.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:28:31 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Service.php on line 647.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:30:35 --> Undefined variable $array_pds
+in APPPATH\Controllers\Service.php on line 650.
+ 1 APPPATH\Controllers\Service.php(650): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $array_pds', 'APPPATH\\Controllers\\Service.php', 650)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:30:59 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 651.
+ 1 APPPATH\Controllers\Service.php(651): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 651)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:32:12 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 651.
+ 1 APPPATH\Controllers\Service.php(651): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 651)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 10:40:56 --> Attempt to read property "id" on array
+in APPPATH\Views\list_user.php on line 95.
+ 1 APPPATH\Views\list_user.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\list_user.php', 95)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\list_user.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('list_user', [], true)
+ 5 APPPATH\Controllers\Service.php(686): view('list_user', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-29 11:26:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 8 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT  a.id,a....', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT  a.id,a....')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT  a.id,a....')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT  a.id,a....')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(645): App\Models\Mydev_model->select('SELECT  a.id,a....')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->list_user()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-29 11:26:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT  a.id,a.username,a.password,a.c_id,a.email,a.fname,a.lname,a.address,a.creattime,a.updatetime,a.status,a.phone,b.name_in_thai pro_name,c.name_in_thai dis_name,d.name_in_thai sub_name
+        FROM db_table a
+        LEFT JOIN provinces b
+        ON  a.provinces_id = b.id
+        LEFT JOIN districts c
+        ON a.districts_id = c.id
+        LEFT JOIN subdistricts d
+        ON a.subdistricts_id = d.id ASC
+        ;')
+ 2 APPPATH\Controllers\Service.php(645): App\Models\Mydev_model->select('SELECT  a.id,a.username,a.password,a.c_id,a.email,a.fname,a.lname,a.address,a.creattime,a.updatetime,a.status,a.phone,b.name_in_thai pro_name,c.name_in_thai dis_name,d.name_in_thai sub_name
+        FROM db_table a
+        LEFT JOIN provinces b
+        ON  a.provinces_id = b.id
+        LEFT JOIN districts c
+        ON a.districts_id = c.id
+        LEFT JOIN subdistricts d
+        ON a.subdistricts_id = d.id ASC
+        ;')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->list_user()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 11:52:13 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 710.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-29 11:57:57 --> Undefined variable $j
+in APPPATH\Controllers\Service.php on line 709.
+ 1 APPPATH\Controllers\Service.php(709): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $j', 'APPPATH\\Controllers\\Service.php', 709)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 11:59:23 --> Undefined variable $j
+in APPPATH\Controllers\Service.php on line 709.
+ 1 APPPATH\Controllers\Service.php(709): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $j', 'APPPATH\\Controllers\\Service.php', 709)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 13:03:09 --> Undefined variable $a
+in APPPATH\Controllers\Service.php on line 709.
+ 1 APPPATH\Controllers\Service.php(709): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $a', 'APPPATH\\Controllers\\Service.php', 709)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 13:03:14 --> Undefined variable $j
+in APPPATH\Controllers\Service.php on line 709.
+ 1 APPPATH\Controllers\Service.php(709): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $j', 'APPPATH\\Controllers\\Service.php', 709)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 13:41:44 --> Undefined array key "xo"
+in APPPATH\Controllers\Service.php on line 710.
+ 1 APPPATH\Controllers\Service.php(710): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "xo"', 'APPPATH\\Controllers\\Service.php', 710)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 14:33:01 --> Cannot redeclare App\Controllers\Service::test01()
+in APPPATH\Controllers\Service.php on line 708.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-29 14:38:37 --> Invalid file: "test011.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test011.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('test011', [], true)
+ 3 APPPATH\Controllers\Service.php(725): view('test011')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test011()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 14:39:10 --> Invalid file: "test011.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test011.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('test011', [], true)
+ 3 APPPATH\Controllers\Service.php(725): view('test011')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test011()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 14:39:15 --> Invalid file: "test011.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test011.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('test011', [], true)
+ 3 APPPATH\Controllers\Service.php(725): view('test011')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test011()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 14:40:02 --> Invalid file: "test011.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test011.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('test011', [], true)
+ 3 APPPATH\Controllers\Service.php(725): view('test011')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test011()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 14:53:50 --> Invalid file: "test01.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test01.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('test01', [], true)
+ 3 APPPATH\Controllers\Service.php(727): view('test01')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test01()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 15:50:56 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 747.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-29 15:50:58 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 747.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-29 16:48:07 --> Modulo by zero
+in APPPATH\Controllers\Service.php on line 790.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test03()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 16:48:08 --> Modulo by zero
+in APPPATH\Controllers\Service.php on line 790.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test03()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-29 17:08:59 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 834.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

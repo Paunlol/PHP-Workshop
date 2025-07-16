@@ -1,0 +1,182 @@
+CRITICAL - 2025-01-28 13:18:21 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Service.php on line 139.
+ 1 APPPATH\Controllers\Service.php(139): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 13:18:22 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Service.php on line 139.
+ 1 APPPATH\Controllers\Service.php(139): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 13:18:31 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Service.php on line 139.
+ 1 APPPATH\Controllers\Service.php(139): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-28 13:18:32 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Service.php on line 139.
+ 1 APPPATH\Controllers\Service.php(139): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 13:24:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT a.name_i...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.name_i...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.name_i...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT a.name_i...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(138): App\Models\Mydev_model->select('SELECT a.name_i...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->process()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 13:24:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT a.name_in_thai p_name ,b.name_in_thai d_name,c.name_in_thai s_name , c.zip_code
+            FROM provinces a
+            LEFT JOIN districts b
+            ON  a.id = b.province_id
+            LEFT JOIN subdistricts c
+            ON b.id = c.district_id
+            WHERE c.zip_code = 
+            ;')
+ 2 APPPATH\Controllers\Service.php(138): App\Models\Mydev_model->select('SELECT a.name_in_thai p_name ,b.name_in_thai d_name,c.name_in_thai s_name , c.zip_code
+            FROM provinces a
+            LEFT JOIN districts b
+            ON  a.id = b.province_id
+            LEFT JOIN subdistricts c
+            ON b.id = c.district_id
+            WHERE c.zip_code = 
+            ;')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 15:04:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+' at line 1 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT a.name_i...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.name_i...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.name_i...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT a.name_i...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(138): App\Models\Mydev_model->select('SELECT a.name_i...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->process()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 15:04:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT a.name_in_thai p_name ,a.id p_id,b.id d.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+            ON  a.id = b.province_id
+            LEFT JOIN subdistricts c
+            ON b.id = c.district_id
+            WHERE c.zip_code = 10530
+            ;')
+ 2 APPPATH\Controllers\Service.php(138): App\Models\Mydev_model->select('SELECT a.name_in_thai p_name ,a.id p_id,b.id d.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+            ON  a.id = b.province_id
+            LEFT JOIN subdistricts c
+            ON b.id = c.district_id
+            WHERE c.zip_code = 10530
+            ;')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 15:04:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+' at line 1 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT a.name_i...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.name_i...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.name_i...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT a.name_i...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(138): App\Models\Mydev_model->select('SELECT a.name_i...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->process()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 15:04:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT a.name_in_thai p_name ,a.id p_id,b.id d.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+            ON  a.id = b.province_id
+            LEFT JOIN subdistricts c
+            ON b.id = c.district_id
+            WHERE c.zip_code = 10530
+            ;')
+ 2 APPPATH\Controllers\Service.php(138): App\Models\Mydev_model->select('SELECT a.name_in_thai p_name ,a.id p_id,b.id d.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+            ON  a.id = b.province_id
+            LEFT JOIN subdistricts c
+            ON b.id = c.district_id
+            WHERE c.zip_code = 10530
+            ;')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-28 15:04:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+' at line 1 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT a.name_i...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.name_i...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.name_i...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT a.name_i...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(138): App\Models\Mydev_model->select('SELECT a.name_i...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->process()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-28 15:04:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT a.name_in_thai p_name ,a.id p_id,b.id d.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+            ON  a.id = b.province_id
+            LEFT JOIN subdistricts c
+            ON b.id = c.district_id
+            WHERE c.zip_code = 10530
+            ;')
+ 2 APPPATH\Controllers\Service.php(138): App\Models\Mydev_model->select('SELECT a.name_in_thai p_name ,a.id p_id,b.id d.id,c.id s.id
+            FROM provinces a
+            LEFT JOIN districts b
+            ON  a.id = b.province_id
+            LEFT JOIN subdistricts c
+            ON b.id = c.district_id
+            WHERE c.zip_code = 10530
+            ;')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,72 @@
+CRITICAL - 2025-02-03 09:11:31 --> unlink(C:\xampp\htdocs\Ford\codeigniter4-ss5\writable\debugbar/debugbar_1738318908.758613.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\Ford\\codeigniter4-ss5\\writable\\debugbar/debugbar_1738318908.758613.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1738318908.758613.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1738548691.052278', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(473): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-03 09:59:43 --> Unsupported operand types: int * string
+in APPPATH\Controllers\Service.php on line 1049.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test09()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-03 09:59:50 --> Unsupported operand types: int * string
+in APPPATH\Controllers\Service.php on line 1049.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test09()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-03 10:00:00 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 1049.
+ 1 APPPATH\Controllers\Service.php(1049): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 1049)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test09()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-03 10:14:35 --> Undefined variable $g
+in APPPATH\Controllers\Service.php on line 1038.
+ 1 APPPATH\Controllers\Service.php(1038): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $g', 'APPPATH\\Controllers\\Service.php', 1038)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test09()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-03 10:18:26 --> Undefined variable $g
+in APPPATH\Controllers\Service.php on line 1038.
+ 1 APPPATH\Controllers\Service.php(1038): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $g', 'APPPATH\\Controllers\\Service.php', 1038)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test09()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-02-03 10:58:39 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 1065.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-03 10:58:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 1065.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-03 10:58:58 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 1065.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-03 10:59:01 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 1065.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-03 10:59:01 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 1065.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-03 10:59:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 1065.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-03 11:01:24 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Controllers\Service.php on line 1064.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-03 11:28:12 --> syntax error, unexpected variable "$i", expecting "," or ";"
+in APPPATH\Controllers\Service.php on line 1101.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/test11')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/test11')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/test11')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()

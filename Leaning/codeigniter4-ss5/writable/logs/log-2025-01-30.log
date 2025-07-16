@@ -1,0 +1,186 @@
+CRITICAL - 2025-01-30 10:26:36 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 806.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:26:39 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 806.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:27:01 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 808.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:27:09 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 808.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:27:09 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 808.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:39:12 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 827.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:39:26 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 827.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:39:33 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 827.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:40:02 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 822.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:40:02 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 822.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:40:04 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 822.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:45:15 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 832.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:49:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 828.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:49:04 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 828.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:49:05 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 828.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:49:32 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+in APPPATH\Controllers\Service.php on line 823.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 10:53:59 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Service.php on line 830.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/test04')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/test04')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/test04')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 10:56:46 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Service.php on line 824.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/test04')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/test04')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/test04')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 11:11:33 --> Undefined variable $v
+in APPPATH\Controllers\Service.php on line 839.
+ 1 APPPATH\Controllers\Service.php(839): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $v', 'APPPATH\\Controllers\\Service.php', 839)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 11:12:34 --> Undefined variable $v
+in APPPATH\Controllers\Service.php on line 842.
+ 1 APPPATH\Controllers\Service.php(842): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $v', 'APPPATH\\Controllers\\Service.php', 842)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 11:13:30 --> Undefined variable $v
+in APPPATH\Controllers\Service.php on line 838.
+ 1 APPPATH\Controllers\Service.php(838): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $v', 'APPPATH\\Controllers\\Service.php', 838)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 11:13:56 --> Undefined variable $v
+in APPPATH\Controllers\Service.php on line 838.
+ 1 APPPATH\Controllers\Service.php(838): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $v', 'APPPATH\\Controllers\\Service.php', 838)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 11:14:25 --> Unsupported operand types: string + int
+in APPPATH\Controllers\Service.php on line 839.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 11:47:07 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Controllers\Service.php on line 826.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 11:47:29 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Controllers\Service.php on line 826.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 11:47:30 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Controllers\Service.php on line 826.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-30 14:40:42 --> Unclosed '{' on line 9
+in APPPATH\Controllers\Service.php on line 888.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/test06')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/test06')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/test06')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 14:42:39 --> Unsupported operand types: int % string
+in APPPATH\Controllers\Service.php on line 877.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test06()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 14:50:03 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+in APPPATH\Controllers\Service.php on line 886.
+ 1 APPPATH\Controllers\Service.php(886): count(479001600)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test06()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 15:05:32 --> Undefined variable $aws
+in APPPATH\Controllers\Service.php on line 881.
+ 1 APPPATH\Controllers\Service.php(881): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aws', 'APPPATH\\Controllers\\Service.php', 881)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test06()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 16:23:45 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 923.
+ 1 APPPATH\Controllers\Service.php(923): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 923)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test07()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 16:24:02 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 923.
+ 1 APPPATH\Controllers\Service.php(923): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 923)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test07()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 16:25:54 --> Call to undefined function App\Controllers\symbol()
+in APPPATH\Controllers\Service.php on line 944.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test07()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 16:30:47 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 851.
+ 1 APPPATH\Controllers\Service.php(851): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 851)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 16:33:22 --> Undefined array key 5
+in APPPATH\Controllers\Service.php on line 950.
+ 1 APPPATH\Controllers\Service.php(950): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 5', 'APPPATH\\Controllers\\Service.php', 950)
+ 2 APPPATH\Controllers\Service.php(843): App\Controllers\Service->symbol([...], '+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 16:33:33 --> Undefined array key 5
+in APPPATH\Controllers\Service.php on line 950.
+ 1 APPPATH\Controllers\Service.php(950): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 5', 'APPPATH\\Controllers\\Service.php', 950)
+ 2 APPPATH\Controllers\Service.php(843): App\Controllers\Service->symbol([...], '+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-30 16:35:10 --> Undefined array key 6
+in APPPATH\Controllers\Service.php on line 950.
+ 1 APPPATH\Controllers\Service.php(950): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Controllers\\Service.php', 950)
+ 2 APPPATH\Controllers\Service.php(843): App\Controllers\Service->plus([...], '+')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test05()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()

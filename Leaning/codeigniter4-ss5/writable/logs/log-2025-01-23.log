@@ -1,0 +1,1341 @@
+CRITICAL - 2025-01-23 10:13:05 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-01-23 10:13:39 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(61): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-01-23 10:14:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(61): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-01-23 10:14:03 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(61): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-01-23 10:16:30 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(61): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-01-23 10:16:40 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(61): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-01-23 10:17:10 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(61): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-01-23 10:18:00 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(61): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-01-23 04:02:43 --> Undefined variable $senddataview
+in APPPATH\Views\my_view.php on line 13.
+ 1 APPPATH\Views\my_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $senddataview', 'APPPATH\\Views\\my_view.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\my_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('my_view', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('my_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:07:15 --> Array to string conversion
+in APPPATH\Views\my_view.php on line 14.
+ 1 APPPATH\Views\my_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\my_view.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\my_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('my_view', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('my_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:07:15 --> Array to string conversion
+in APPPATH\Views\my_view.php on line 14.
+ 1 APPPATH\Views\my_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\my_view.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\my_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('my_view', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('my_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:07:15 --> Array to string conversion
+in APPPATH\Views\my_view.php on line 14.
+ 1 APPPATH\Views\my_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\my_view.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\my_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('my_view', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('my_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:07:15 --> Array to string conversion
+in APPPATH\Views\my_view.php on line 14.
+ 1 APPPATH\Views\my_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\my_view.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\my_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('my_view', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('my_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:28:23 --> Undefined variable $obj
+in APPPATH\Views\my_view.php on line 14.
+ 1 APPPATH\Views\my_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obj', 'APPPATH\\Views\\my_view.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\my_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('my_view', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('my_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:31:42 --> Undefined variable $obj
+in APPPATH\Views\my_view.php on line 14.
+ 1 APPPATH\Views\my_view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $obj', 'APPPATH\\Views\\my_view.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\my_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('my_view', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('my_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->myview()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:40:52 --> full_ss5_ford is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('full_ss5_ford')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:41:58 --> full_ss5_ford is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('full_ss5_ford')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:42:06 --> full_ss5_ford is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('full_ss5_ford')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:42:07 --> full_ss5_ford is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('full_ss5_ford')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 04:42:07 --> full_ss5_ford is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('full_ss5_ford')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 11:56:57 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 21.
+ 1 APPPATH\Controllers\Service.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 11:56:57 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 21.
+ 1 APPPATH\Controllers\Service.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 11:56:57 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 21.
+ 1 APPPATH\Controllers\Service.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 11:57:11 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 22.
+ 1 APPPATH\Controllers\Service.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 11:57:21 --> syntax error, unexpected token ";"
+in APPPATH\Controllers\Service.php on line 23.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('Service')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Service')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Service')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:09:43 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('192.168.237.128', 'root', '123789456@Rr', 'db_table', 3306, '', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-23 13:09:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_table'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM db_table WHERE status = \'1\';')
+ 3 APPPATH\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM db_table WHERE status = \'1\';')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:09:44 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('192.168.237.128', 'root', '123789456@Rr', 'db_table', 3306, '', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-23 13:09:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_table'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM db_table WHERE status = \'1\';')
+ 3 APPPATH\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM db_table WHERE status = \'1\';')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:12:56 --> db_table is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('db_table')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:13:16 --> db_table is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('db_table')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:13:19 --> db_table is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('db_table')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:13:20 --> db_table is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('db_table')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:13:20 --> db_table is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('db_table')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:13:21 --> db_table is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(16): CodeIgniter\Database\Config::connect('db_table')
+ 2 APPPATH\Controllers\Service.php(12): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Service->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:13:32 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('192.168.237.128', 'root', '123789456@Rr', 'db_table', 3306, '', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-23 13:13:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_table'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM db_table WHERE status = \'1\';')
+ 3 APPPATH\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM db_table WHERE status = \'1\';')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:13:35 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('192.168.237.128', 'root', '123789456@Rr', 'db_table', 3306, '', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-23 13:13:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_table'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM db_table WHERE status = \'1\';')
+ 3 APPPATH\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM db_table WHERE status = \'1\';')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:13:35 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('192.168.237.128', 'root', '123789456@Rr', 'db_table', 3306, '', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_table' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM d...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM d...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-01-23 13:13:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_table'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT * FROM db_table WHERE status = \'1\';')
+ 3 APPPATH\Controllers\Service.php(28): App\Models\Mydev_model->select('SELECT * FROM db_table WHERE status = \'1\';')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:17:18 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 34.
+ 1 APPPATH\Controllers\Service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:18:01 --> Array to string conversion
+in APPPATH\Controllers\Service.php on line 34.
+ 1 APPPATH\Controllers\Service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Service.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:19:24 --> Undefined variable $username
+in APPPATH\Controllers\Service.php on line 34.
+ 1 APPPATH\Controllers\Service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Controllers\\Service.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:19:29 --> Undefined variable $username
+in APPPATH\Controllers\Service.php on line 34.
+ 1 APPPATH\Controllers\Service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Controllers\\Service.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:20:00 --> Undefined variable $username
+in APPPATH\Controllers\Service.php on line 34.
+ 1 APPPATH\Controllers\Service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Controllers\\Service.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:37:30 --> mysqli_sql_exception: Duplicate entry 'Kijui12' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 13:37:30 --> Duplicate entry 'Kijui12' for key 'db_table.username'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui12\',\'Kijui1222!\',\'5847565212001\',\'Kijui1222@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui12\',\'Kijui1222!\',\'5847565212001\',\'Kijui1222@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:37:49 --> mysqli_sql_exception: Duplicate entry '5847565212001' for key 'db_table.c_id' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 13:37:49 --> Duplicate entry '5847565212001' for key 'db_table.c_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui121\',\'Kijui1222!\',\'5847565212001\',\'Kijui1222@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui121\',\'Kijui1222!\',\'5847565212001\',\'Kijui1222@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:38:04 --> mysqli_sql_exception: Duplicate entry 'Kijui1222@Kijui1222.as' for key 'db_table.email' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 13:38:04 --> Duplicate entry 'Kijui1222@Kijui1222.as' for key 'db_table.email'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui121\',\'Kijui1222!\',\'5841565212001\',\'Kijui1222@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui121\',\'Kijui1222!\',\'5841565212001\',\'Kijui1222@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:38:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(640): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(801): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Service.php(50): CodeIgniter\Model->__get('execute')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:38:36 --> mysqli_sql_exception: Duplicate entry 'Kijui121' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 13:38:36 --> Duplicate entry 'Kijui121' for key 'db_table.username'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui121\',\'Kijui1222!\',\'5841565212001\',\'Kijui1221@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui121\',\'Kijui1222!\',\'5841565212001\',\'Kijui1221@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 13:38:48 --> Undefined constant "App\Controllers\execute"
+in APPPATH\Controllers\Service.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:39:09 --> mysqli_sql_exception: Duplicate entry 'Kijui1211' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 13:39:09 --> Duplicate entry 'Kijui1211' for key 'db_table.username'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1211\',\'Kijui1222!\',\'5841565112001\',\'Kijui1211@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1211\',\'Kijui1222!\',\'5841565112001\',\'Kijui1211@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:43:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!5841511112001,Kijui21111@Kijui1222.asKijuiwq,KijuiqwKijuiqw,0254578454)' at line 1 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 13:43:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '!5841511112001,Kijui21111@Kijui1222.asKijuiwq,KijuiqwKijuiqw,0254578454)' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (Kijui11112,Kijui1222!5841511112001,Kijui21111@Kijui1222.asKijuiwq,KijuiqwKijuiqw,0254578454)')
+ 2 APPPATH\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (Kijui11112,Kijui1222!5841511112001,Kijui21111@Kijui1222.asKijuiwq,KijuiqwKijuiqw,0254578454)')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:44:22 --> mysqli_sql_exception: Duplicate entry 'Kijui1111' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 13:44:22 --> Duplicate entry 'Kijui1111' for key 'db_table.username'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1111\',\'Kijui1222!\',\'5841515112001\',\'Kijui1111@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1111\',\'Kijui1222!\',\'5841515112001\',\'Kijui1111@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:55:03 --> mysqli_sql_exception: Duplicate entry 'Kijui1111' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 13:55:03 --> Duplicate entry 'Kijui1111' for key 'db_table.username'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1111\',\'Kijui1222!\',\'5841515112001\',\'Kijui1111@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1111\',\'Kijui1222!\',\'5841515112001\',\'Kijui1111@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 13:59:36 --> mysqli_sql_exception: Duplicate entry 'Kijui1111' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-01-23 14:06:15 --> mysqli_sql_exception: Duplicate entry 'Kijui1111' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(49): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-01-23 14:07:46 --> mysqli_sql_exception: Duplicate entry 'Kijui1111' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(50): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-01-23 14:15:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@oudn.yob OR c_id = 5557778896325 LIMIT 3' at line 1 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT username...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT username...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT username...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT username...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(53): App\Models\Mydev_model->select('SELECT username...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-01-23 14:16:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@oudn.yob OR c_id = 5557778896325 LIMIT 3' at line 1 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT username...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT username...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT username...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT username...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(53): App\Models\Mydev_model->select('SELECT username...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2025-01-23 14:16:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@oudn.yob OR c_id = 5557778896325 LIMIT 3' at line 1 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT username...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT username...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT username...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT username...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(53): App\Models\Mydev_model->select('SELECT username...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 14:16:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@oudn.yob OR c_id = 5557778896325 LIMIT 3' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT username , email , c_id FROM db_table WHERE username = Kijui1111 OR email = hyuhdfn@oudn.yob OR c_id = 5557778896325 LIMIT 3 ;')
+ 2 APPPATH\Controllers\Service.php(53): App\Models\Mydev_model->select('SELECT username , email , c_id FROM db_table WHERE username = Kijui1111 OR email = hyuhdfn@oudn.yob OR c_id = 5557778896325 LIMIT 3 ;')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:23:35 --> Attempt to read property "username" on array
+in APPPATH\Controllers\Service.php on line 54.
+ 1 APPPATH\Controllers\Service.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Controllers\\Service.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:23:36 --> Attempt to read property "username" on array
+in APPPATH\Controllers\Service.php on line 54.
+ 1 APPPATH\Controllers\Service.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Controllers\\Service.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:24:03 --> Attempt to read property "username" on array
+in APPPATH\Controllers\Service.php on line 54.
+ 1 APPPATH\Controllers\Service.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Controllers\\Service.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:25:47 --> Attempt to read property "username" on array
+in APPPATH\Controllers\Service.php on line 53.
+ 1 APPPATH\Controllers\Service.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'APPPATH\\Controllers\\Service.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:27:12 --> Undefined array key "username"
+in APPPATH\Controllers\Service.php on line 53.
+ 1 APPPATH\Controllers\Service.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Service.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:27:13 --> Undefined array key "username"
+in APPPATH\Controllers\Service.php on line 53.
+ 1 APPPATH\Controllers\Service.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Service.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:27:13 --> Undefined array key "username"
+in APPPATH\Controllers\Service.php on line 53.
+ 1 APPPATH\Controllers\Service.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Service.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:27:19 --> Undefined array key "username"
+in APPPATH\Controllers\Service.php on line 53.
+ 1 APPPATH\Controllers\Service.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Service.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:27:30 --> Undefined array key "username"
+in APPPATH\Controllers\Service.php on line 54.
+ 1 APPPATH\Controllers\Service.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Service.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 14:34:32 --> mysqli_sql_exception: Duplicate entry '5557778896325' for key 'db_table.c_id' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(68): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 14:34:32 --> Duplicate entry '5557778896325' for key 'db_table.c_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(68): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 14:35:00 --> mysqli_sql_exception: Duplicate entry '5557778896325' for key 'db_table.c_id' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(68): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 14:35:00 --> Duplicate entry '5557778896325' for key 'db_table.c_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(68): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 14:35:00 --> mysqli_sql_exception: Duplicate entry '5557778896325' for key 'db_table.c_id' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(68): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 14:35:00 --> Duplicate entry '5557778896325' for key 'db_table.c_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(68): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 14:38:41 --> mysqli_sql_exception: Duplicate entry '5557778896325' for key 'db_table.c_id' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(69): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 14:38:41 --> Duplicate entry '5557778896325' for key 'db_table.c_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(69): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 14:40:15 --> mysqli_sql_exception: Duplicate entry '5557778896325' for key 'db_table.c_id' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(69): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 14:40:15 --> Duplicate entry '5557778896325' for key 'db_table.c_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(69): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui11111\',\'Kijui1222!\',\'555777889632522\',\'hyuhdfn1@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 14:41:44 --> mysqli_sql_exception: Duplicate entry 'Kijui1111' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(65): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 14:41:44 --> Duplicate entry 'Kijui1111' for key 'db_table.username'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1111\',\'Kijui1222!\',\'5557778896325\',\'hyuhdfn@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(65): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1111\',\'Kijui1222!\',\'5557778896325\',\'hyuhdfn@oudn.yob\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:48:28 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:49:03 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:49:12 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:49:12 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:49:12 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:49:21 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:08 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:10 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:19 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:19 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:43 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:43 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:43 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:43 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:43 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:44 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:51:53 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896325')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:52:06 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH\Controllers\Service.php on line 60.
+ 1 APPPATH\Controllers\Service.php(60): count('5557778896321')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:59:37 --> Undefined array key 211
+in APPPATH\Controllers\Service.php on line 54.
+ 1 APPPATH\Controllers\Service.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 211', 'APPPATH\\Controllers\\Service.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 14:59:57 --> Undefined array key 3
+in APPPATH\Controllers\Service.php on line 54.
+ 1 APPPATH\Controllers\Service.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 3', 'APPPATH\\Controllers\\Service.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:00:02 --> Undefined array key 2
+in APPPATH\Controllers\Service.php on line 54.
+ 1 APPPATH\Controllers\Service.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Service.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:11:29 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Controllers\Service.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-23 15:12:53 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Controllers\Service.php on line 65.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-23 15:12:54 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Controllers\Service.php on line 65.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-23 15:12:54 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Controllers\Service.php on line 65.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-23 15:12:58 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Service.php on line 67.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('Service')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Service')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Service')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:13:03 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Controllers\Service.php on line 65.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-23 15:19:01 --> Undefined variable $postdata
+in APPPATH\Controllers\Service.php on line 65.
+ 1 APPPATH\Controllers\Service.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $postdata', 'APPPATH\\Controllers\\Service.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:20:48 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH\Controllers\Service.php on line 86.
+ 1 APPPATH\Controllers\Service.php(86): json_decode([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 15:23:43 --> mysqli_sql_exception: Duplicate entry 'Kijui1211' for key 'db_table.username' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(88): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 15:23:43 --> Duplicate entry 'Kijui1211' for key 'db_table.username'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1211\',\'Kijui1222!\',\'5841565112001\',\'Kijui1211@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(88): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Kijui1211\',\'Kijui1222!\',\'5841565112001\',\'Kijui1211@Kijui1222.as\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:26:16 --> Undefined array key 0
+in APPPATH\Controllers\Service.php on line 59.
+ 1 APPPATH\Controllers\Service.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Service.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:26:19 --> Undefined array key 0
+in APPPATH\Controllers\Service.php on line 59.
+ 1 APPPATH\Controllers\Service.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Service.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 15:34:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1103766875333'' LIMIT 3' at line 1 in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT username...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT username...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT username...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT username...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(55): App\Models\Mydev_model->select('SELECT username...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 15:34:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1103766875333'' LIMIT 3' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(31): CodeIgniter\Database\BaseConnection->query('SELECT username , email , c_id FROM db_table WHERE username = \'usertest78\' OR email = \'ijasfsajf@jskajfksa.cox\' OR c_id = \'1103766875333\'\' LIMIT 3 ;')
+ 2 APPPATH\Controllers\Service.php(55): App\Models\Mydev_model->select('SELECT username , email , c_id FROM db_table WHERE username = \'usertest78\' OR email = \'ijasfsajf@jskajfksa.cox\' OR c_id = \'1103766875333\'\' LIMIT 3 ;')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ERROR - 2025-01-23 15:44:58 --> mysqli_sql_exception: Duplicate entry '1103766875331' for key 'db_table.c_id' in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO db_...', 0)
+#1 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO db_...')
+#2 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO db_...')
+#3 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_...')
+#4 C:\xampp\htdocs\Ford\codeigniter4-ss5\app\Controllers\Service.php(109): App\Models\Mydev_model->execute('INSERT INTO db_...')
+#5 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(934): App\Controllers\Service->index()
+#6 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+#7 C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Ford\codeigniter4-ss5\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2025-01-23 15:44:58 --> Duplicate entry '1103766875331' for key 'db_table.c_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\Mydev_model.php(21): CodeIgniter\Database\BaseConnection->query('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Usertest7811\',\'Kijui1222!\',\'11037668753311\',\'Ijasfsajf1@js1kajfksa.cox\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 2 APPPATH\Controllers\Service.php(109): App\Models\Mydev_model->execute('INSERT INTO db_table (username, password, c_id, email, fname, lname , address , phone) VALUE (\'Usertest7811\',\'Kijui1222!\',\'11037668753311\',\'Ijasfsajf1@js1kajfksa.cox\',\'Kijuiwq\',\'Kijuiqw\',\'Kijuiqw\',\'0254578454\');')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:51:01 --> Call to undefined method stdClass::strtolower()
+in APPPATH\Controllers\Service.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:51:03 --> Call to undefined method stdClass::strtolower()
+in APPPATH\Controllers\Service.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 15:51:17 --> Call to undefined method stdClass::strtolower()
+in APPPATH\Controllers\Service.php on line 81.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:06:20 --> Too few arguments to function App\Controllers\Service::register(), 0 passed in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Service.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:06:26 --> Too few arguments to function App\Controllers\Service::register(), 0 passed in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Service.php on line 119.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:20:27 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:20:31 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:21:02 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 270.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:22:43 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 239.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:23:19 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 239.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:23:20 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 239.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:33:27 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 239.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:41:17 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 271.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:50:31 --> Call to undefined function App\Controllers\check_reg()
+in APPPATH\Controllers\Service.php on line 271.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:51:01 --> Class "App\Controllers\mysqlclass" not found
+in APPPATH\Controllers\Service.php on line 342.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:54:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 882.
+ 1 SYSTEMPATH\Model.php(640): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(830): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Service.php(389): CodeIgniter\Model->__call('mysqli_real_escape_string', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:55:18 --> Call to undefined function App\Controllers\write_log()
+in APPPATH\Controllers\Service.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 16:55:51 --> Call to undefined function App\Controllers\write_log()
+in APPPATH\Controllers\Service.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:05:55 --> Call to undefined function App\Controllers\write_log()
+in APPPATH\Controllers\Service.php on line 403.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:13:05 --> Call to undefined function App\Controllers\write_log()
+in APPPATH\Controllers\Service.php on line 397.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:14:56 --> Call to undefined function App\Controllers\write_log()
+in APPPATH\Controllers\Service.php on line 397.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:17:41 --> Call to undefined function App\Controllers\write_log()
+in APPPATH\Controllers\Service.php on line 398.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:41:33 --> file_put_contents(logs/log_20250123.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Service.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(logs/log_20250123.txt): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Service.php', 422)
+ 2 APPPATH\Controllers\Service.php(422): file_put_contents('logs/log_20250123.txt', '2025-01-23 17:41:33
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"uiop7845vc","password":"123789456@Rr","con_password":"123789456@Rr","email":"forsdfor222d2@fordford.com","fname":"maxzaza","lname":"forsdfoasdardasqq","c_id":"1111111110222","phone":"1234567890","address":"uiop7845vc","date":"Thu Jan 23 2025 17:41:33 GMT 0700 (Indochina Time)","status":"3"}}
+-------------------------
+', 8)
+ 3 APPPATH\Controllers\Service.php(398): App\Controllers\Service->write_log('{"status":"101","msg":"Receive Data Success","data":{"username":"uiop7845vc","password":"123789456@Rr","con_password":"123789456@Rr","email":"forsdfor222d2@fordford.com","fname":"maxzaza","lname":"forsdfoasdardasqq","c_id":"1111111110222","phone":"1234567890","address":"uiop7845vc","date":"Thu Jan 23 2025 17:41:33 GMT 0700 (Indochina Time)","status":"3"}}')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:43:07 --> file_put_contents(logs/log_20250123.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Service.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(logs/log_20250123.txt): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Service.php', 422)
+ 2 APPPATH\Controllers\Service.php(422): file_put_contents('logs/log_20250123.txt', '2025-01-23 17:43:07
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"uiop7845zxzx","password":"123789456@Rr","con_password":"123789456@Rr","email":"uiop7845zxzx@uiop7845zxzx.as","fname":"uiopuiopuiopuiop","lname":"fordford","c_id":"7777777777550","phone":"1234567890","address":"asdasdsad","date":"Thu Jan 23 2025 17:43:07 GMT 0700 (Indochina Time)","status":"3"}}
+-------------------------
+', 8)
+ 3 APPPATH\Controllers\Service.php(398): App\Controllers\Service->write_log('{"status":"101","msg":"Receive Data Success","data":{"username":"uiop7845zxzx","password":"123789456@Rr","con_password":"123789456@Rr","email":"uiop7845zxzx@uiop7845zxzx.as","fname":"uiopuiopuiopuiop","lname":"fordford","c_id":"7777777777550","phone":"1234567890","address":"asdasdsad","date":"Thu Jan 23 2025 17:43:07 GMT 0700 (Indochina Time)","status":"3"}}')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:43:48 --> Too few arguments to function App\Controllers\Service::write_log(), 0 passed in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Service.php on line 415.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->write_log()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:43:50 --> Too few arguments to function App\Controllers\Service::write_log(), 0 passed in C:\xampp\htdocs\Ford\codeigniter4-ss5\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Service.php on line 415.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->write_log()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:46:16 --> file_put_contents(logs/log_20250123.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Service.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(logs/log_20250123.txt): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Service.php', 422)
+ 2 APPPATH\Controllers\Service.php(422): file_put_contents('logs/log_20250123.txt', '2025-01-23 17:46:16
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"uiop7845zxzx12","password":"123789456@Rr","con_password":"123789456@Rr","email":"uiop7845zxz22x@uiop7845zxzx.as","fname":"uiopuiopuiopuiop","lname":"fordford","c_id":"7777772272550","phone":"1234567890","address":"asdasdsad","date":"Thu Jan 23 2025 17:46:16 GMT 0700 (Indochina Time)","status":"3"}}
+-------------------------
+', 8)
+ 3 APPPATH\Controllers\Service.php(398): App\Controllers\Service->write_log('{"status":"101","msg":"Receive Data Success","data":{"username":"uiop7845zxzx12","password":"123789456@Rr","con_password":"123789456@Rr","email":"uiop7845zxz22x@uiop7845zxzx.as","fname":"uiopuiopuiopuiop","lname":"fordford","c_id":"7777772272550","phone":"1234567890","address":"asdasdsad","date":"Thu Jan 23 2025 17:46:16 GMT 0700 (Indochina Time)","status":"3"}}')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-23 17:47:01 --> file_put_contents(logs/log_20250123.txt): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Service.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(logs/log_20250123.txt): Failed to open stream: No such file or directory', 'APPPATH\\Controllers\\Service.php', 422)
+ 2 APPPATH\Controllers\Service.php(422): file_put_contents('logs/log_20250123.txt', '2025-01-23 17:47:01
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"ghjhgj651","password":"Ee12354678!!!","con_password":"Ee12354678!!!","email":"ghjhg2j65@iopv.iop","fname":"opptsw","lname":"opuytsw","c_id":"1581224011022","phone":"085158197012312321321321321312321","address":"asdasdasdasdasdasdasdasdasdasdas"}}
+-------------------------
+', 8)
+ 3 APPPATH\Controllers\Service.php(398): App\Controllers\Service->write_log('{"status":"101","msg":"Receive Data Success","data":{"username":"ghjhgj651","password":"Ee12354678!!!","con_password":"Ee12354678!!!","email":"ghjhg2j65@iopv.iop","fname":"opptsw","lname":"opuytsw","c_id":"1581224011022","phone":"085158197012312321321321321312321","address":"asdasdasdasdasdasdasdasdasdasdas"}}')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->process()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()

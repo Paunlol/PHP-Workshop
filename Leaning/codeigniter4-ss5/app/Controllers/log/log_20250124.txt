@@ -1,0 +1,16 @@
+2025-01-24 10:01:11
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"ghjhgj6551211","password":"Ee12354678!!!","con_password":"Ee12354678!!!","email":"ghjhg2152110@iopv.iop","fname":"opptsw","lname":"opuytsw","c_id":"1181115111220","phone":"085158197012312321321321321312321","address":"asdasdasdasdasdasdasdasdasdasdas"}}
+-------------------------
+2025-01-24 11:12:36
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"qwe2321","password":"123789456@Rr","con_password":"123789456@Rr","email":"qwe2321@qwe2321.as","fname":"forsdfoasdardasqq","lname":"fordzazaza","c_id":"5555566656666","phone":"1234567890","address":"qwe2321","date":"Fri Jan 24 2025 11:12:36 GMT 0700 (Indochina Time)","status":"3"}}
+-------------------------
+2025-01-24 11:14:40
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"uiop7845hg","password":"123789456@Rr","con_password":"123789456@Rr","email":"fo11rsdfo2rd2@fordford.com","fname":"forsdfoasdardasqq","lname":"uiopuiop","c_id":"4747474744444","phone":"","address":"","date":"Fri Jan 24 2025 11:14:40 GMT 0700 (Indochina Time)","status":"3"}}
+-------------------------
+2025-01-24 11:15:37
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"tikky001","password":"P@ssw0rd","con_password":"P@ssw0rd","email":"sjsdghjksh@fjasvo.casjf","fname":"asjfashfas","lname":"jsajashf","c_id":"1111333344445","phone":"234325325325","address":"dskngvsmdndsm ndsklv","date":"Fri Jan 24 2025 11:15:30 GMT 0700 (Indochina Time)","status":"3"}}
+-------------------------

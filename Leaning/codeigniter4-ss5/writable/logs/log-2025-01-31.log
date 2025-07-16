@@ -1,0 +1,335 @@
+CRITICAL - 2025-01-31 09:14:08 --> Call to undefined function App\Controllers\slice()
+in APPPATH\Controllers\Service.php on line 966.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:14:18 --> Call to undefined function App\Controllers\slice()
+in APPPATH\Controllers\Service.php on line 966.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:14:40 --> Call to undefined function App\Controllers\slice()
+in APPPATH\Controllers\Service.php on line 966.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:15:47 --> Call to undefined method App\Controllers\Service::slice()
+in APPPATH\Controllers\Service.php on line 966.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:17:09 --> unlink(C:\xampp\htdocs\Ford\codeigniter4-ss5\writable\debugbar/debugbar_1737714973.442228.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\Ford\\codeigniter4-ss5\\writable\\debugbar/debugbar_1737714973.442228.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1737714973.442228.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1738289828.835608', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(473): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:23:17 --> Undefined array key 6
+in APPPATH\Controllers\Service.php on line 973.
+ 1 APPPATH\Controllers\Service.php(973): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Controllers\\Service.php', 973)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:39:00 --> Undefined array key 2
+in APPPATH\Controllers\Service.php on line 970.
+ 1 APPPATH\Controllers\Service.php(970): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\Service.php', 970)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:39:18 --> Undefined array key 4
+in APPPATH\Controllers\Service.php on line 970.
+ 1 APPPATH\Controllers\Service.php(970): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 4', 'APPPATH\\Controllers\\Service.php', 970)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:57:37 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 984.
+ 1 APPPATH\Controllers\Service.php(984): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 984)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:58:13 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 984.
+ 1 APPPATH\Controllers\Service.php(984): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 984)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:58:14 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 984.
+ 1 APPPATH\Controllers\Service.php(984): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 984)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:58:52 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 984.
+ 1 APPPATH\Controllers\Service.php(984): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 984)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 09:59:38 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 984.
+ 1 APPPATH\Controllers\Service.php(984): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 984)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:00:56 --> number_format(): Argument #1 ($num) must be of type float, string given
+in APPPATH\Controllers\Service.php on line 984.
+ 1 APPPATH\Controllers\Service.php(984): number_format('13781240216537488242.0671860324806E+192.4806232389767E+39')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:14:15 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 984.
+ 1 APPPATH\Controllers\Service.php(984): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 984)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:14:59 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 985.
+ 1 APPPATH\Controllers\Service.php(985): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 985)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:32:57 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 989.
+ 1 APPPATH\Controllers\Service.php(989): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 989)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:34:13 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 989.
+ 1 APPPATH\Controllers\Service.php(989): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 989)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:34:21 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 989.
+ 1 APPPATH\Controllers\Service.php(989): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 989)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:34:57 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 989.
+ 1 APPPATH\Controllers\Service.php(989): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 989)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:36:28 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 988.
+ 1 APPPATH\Controllers\Service.php(988): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 988)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:37:43 --> Can't use function return value in write context
+in APPPATH\Controllers\Service.php on line 988.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-31 10:37:53 --> Can't use function return value in write context
+in APPPATH\Controllers\Service.php on line 988.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-31 10:38:06 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 988.
+ 1 APPPATH\Controllers\Service.php(988): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 988)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:38:25 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 988.
+ 1 APPPATH\Controllers\Service.php(988): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 988)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:38:33 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 988.
+ 1 APPPATH\Controllers\Service.php(988): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 988)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:38:35 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 988.
+ 1 APPPATH\Controllers\Service.php(988): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 988)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:39:19 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 988.
+ 1 APPPATH\Controllers\Service.php(988): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 988)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:41:54 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 989.
+ 1 APPPATH\Controllers\Service.php(989): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 989)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:42:09 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 989.
+ 1 APPPATH\Controllers\Service.php(989): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 989)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 10:42:41 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 989.
+ 1 APPPATH\Controllers\Service.php(989): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 989)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:07:39 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 997.
+ 1 APPPATH\Controllers\Service.php(997): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 997)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:08:53 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 998.
+ 1 APPPATH\Controllers\Service.php(998): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 998)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:10:54 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 1001.
+ 1 APPPATH\Controllers\Service.php(1001): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 1001)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:18:34 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 1003.
+ 1 APPPATH\Controllers\Service.php(1003): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 1003)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:21:12 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 1003.
+ 1 APPPATH\Controllers\Service.php(1003): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 1003)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:22:38 --> str_repeat() expects exactly 2 arguments, 3 given
+in APPPATH\Controllers\Service.php on line 1001.
+ 1 APPPATH\Controllers\Service.php(1001): str_repeat(',', 'ROOTPATH\\public', '19,833,703,004,763,648,000')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:23:11 --> str_repeat() expects exactly 2 arguments, 3 given
+in APPPATH\Controllers\Service.php on line 1001.
+ 1 APPPATH\Controllers\Service.php(1001): str_repeat(',', 'ROOTPATH\\public', '19,833,703,004,763,648,000')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:23:16 --> str_repeat() expects exactly 2 arguments, 3 given
+in APPPATH\Controllers\Service.php on line 1001.
+ 1 APPPATH\Controllers\Service.php(1001): str_repeat(',', 'ROOTPATH\\public', '19,833,703,004,763,648,000')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 11:25:12 --> str_repeat() expects exactly 2 arguments, 3 given
+in APPPATH\Controllers\Service.php on line 1001.
+ 1 APPPATH\Controllers\Service.php(1001): str_repeat(',', 'ROOTPATH\\public', '19,833,703,004,763,648,000')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test08()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 12:28:30 --> Undefined variable $totalTime
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 40.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'SYSTEMPATH\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 40)
+ 2 SYSTEMPATH\Debug\Toolbar.php(510): include('SYSTEMPATH\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(473): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 12:28:30 --> Undefined variable $totalTime
+in SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php on line 40.
+ 1 SYSTEMPATH\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalTime', 'SYSTEMPATH\\Debug\\Toolbar\\Views\\toolbar.tpl.php', 40)
+ 2 SYSTEMPATH\Debug\Toolbar.php(510): include('SYSTEMPATH\\Debug\\Toolbar\\Views\\toolbar.tpl.php')
+ 3 SYSTEMPATH\Debug\Toolbar.php(473): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 4 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 5 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 6 SYSTEMPATH\CodeIgniter.php(350): CodeIgniter\Events\Events::trigger('pre_system')
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 15:15:57 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Controllers\Service.php on line 1028.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-01-31 15:21:25 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Service.php on line 1032.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/test09')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/test09')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/test09')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 15:33:09 --> syntax error, unexpected token "."
+in APPPATH\Controllers\Service.php on line 1035.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/test09')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/test09')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/test09')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 15:51:05 --> syntax error, unexpected token ")", expecting ";"
+in APPPATH\Controllers\Service.php on line 1029.
+ 1 SYSTEMPATH\Router\Router.php(506): CodeIgniter\Router\AutoRouter->getRoute('service/test09')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('service/test09')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('service/test09')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 16:59:10 --> Unsupported operand types: int + array
+in APPPATH\Controllers\Service.php on line 1029.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test09()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 16:59:18 --> Unsupported operand types: int + array
+in APPPATH\Controllers\Service.php on line 1029.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test09()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2025-01-31 17:00:55 --> A non-numeric value encountered
+in APPPATH\Controllers\Service.php on line 1033.
+ 1 APPPATH\Controllers\Service.php(1033): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'APPPATH\\Controllers\\Service.php', 1033)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Service->test09()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Service))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
