@@ -1,0 +1,83 @@
+<?php
+// echo print_r($_GET);
+// if (isset($_GET['loop_data'])=== "") {
+//     echo "asd";
+// }
+// $_POST['loop_data'] = ""; 
+
+if(isset($_POST['loop_data']) && is_numeric($_POST['loop_data'])===true ){
+    fag($_POST['loop_data']);
+    $response = array(
+        "res_code" => "201",
+        "msg" => "success",
+        "data1" => fag($_POST['loop_data'])
+    );
+    echo json_encode($response) ;
+}else if(isset($_POST['loop_data'])&&!is_numeric($_POST['loop_data'])&&($_POST['loop_data'])!== "") {
+    // echo "No Data1 <br>";
+    $response = array(
+        "res_code" => "202",
+        "msg" => "error pls enter number",
+        "data" => ""
+    );
+    echo json_encode($response) ;
+}else{
+    // echo "No Data1 <br>";
+    $response = array(
+        "res_code" => "203",
+        "msg" => "error wrong data",
+        "data" => ""
+    );
+    echo json_encode($response) ;
+}
+
+function fag($y){
+    $a="";
+    if(is_numeric($y)){
+        // echo "X = ".$y;
+        // echo "<br>";
+        if($y===0){
+           $a.= "x=0";
+        }
+        $b=1;
+        for ($i=0; $i <$y ; $i++) { 
+            
+            if($i === 0){
+                $a.=  $y-$i;
+            }
+            else{
+                $a.=  "x". $y-$i;
+            }
+            $b = $b*($y-$i);
+            
+        }
+        return array(
+            "key01"=>"$a",
+            "key02"=>"$b"
+        );
+        
+    }else{
+        // echo "No Data1 <br>";
+    }
+}
+
+
+// if(isset($_GET['number_data'])&&isset($_GET['number_data']) != ""){
+//     fag($_GET['number_data']);
+// }else{
+//     echo "No Data2 <br>";
+// }
+
+// function Factorial($number){ 
+//     if($number <= 1){ 
+//         return 1; 
+//     } 
+//     else{ 
+//         return $number * Factorial($number - 1); 
+//     } 
+// }
+// echo "<br>";
+// echo "<a style='color:red;' href='fromloop.php'>Back</a>";
+?>
+
+

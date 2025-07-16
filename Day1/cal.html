@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Calculation</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #warpper {
+            width: 80px;
+            border: 1px solid black;
+            margin: 0 auto;
+            padding: 10px;
+            min-width: 500px;
+        }
+
+        /* .output {
+            border: 1px solid black;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="warpper">
+        input number : <input type="number" id="number" required /> <button onclick="cal()">OK</button> <br>
+        Output : <span id="result" class="output"></span>
+    </div>
+
+</body>
+<script>
+    function cal() {
+        var i = document.getElementById('number').value
+        console.log(i);
+
+        if (i === "") {
+            alert("กรุณาใส่ข้อมูล")
+            document.getElementById("number").focus()
+            return false;
+        }
+
+        if (i >= 80) {
+            result = "A"
+        }
+        else if (i >= 70) {
+            result = "B"
+        }
+        else if (i >= 60) {
+            result = "B"
+        }
+        else if (i >= 50) {
+            result = "B"
+        }
+        else {
+            result = "F"
+        }
+        document.getElementById("result").innerHTML = result
+        console.log(result);
+    }
+</script>
+
+</html>

@@ -1,0 +1,8 @@
+2025-01-13 09:05:58
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"asdas","password":"123789456@Rr","con_password":"123789456@Rr","email":"asdfqwer@asdf.sd","fname":"asdf","lname":"asdf","c_id":"7531598524677","phone":"1234567890","address":"asdasdsada"}}
+-------------------------
+2025-01-13 09:21:48
+IP : ::1
+DATA : {"status":"101","msg":"Receive Data Success","data":{"username":"asdas123","password":"123789456@Rr","con_password":"123789456@Rr","email":"asdfqwser@asdf.sd","fname":"asdf","lname":"asdf","c_id":"7531598524177","phone":"1234567890","address":"asdasdsada"}}
+-------------------------

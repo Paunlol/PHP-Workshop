@@ -1,0 +1,18 @@
+<h2 style="text-align: center;">PHP TABLE</h2>
+<div class="table_php">
+    <table>
+        <?php
+        $r = "5";
+        $c = "3";
+        echo "<tr>";
+        for ($i = 1; $i <= $c; $i++) {
+            echo "<th>th is $i";
+        }
+        echo "<tr>";
+        for ($i = 1; $i <= $r; $i++) {
+            echo "<td> td is $i";
+        }
+        ?>
+
+    </table>
+</div>
